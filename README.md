@@ -48,14 +48,23 @@ A policy trained on normal terrain may:
 
 ---
 
-## 📊 Key Result (Quick Insight)
+## 🌪️ Disturbance Test
 
-Using the same trained policy under identical command inputs:
+We introduce a lateral push during locomotion:
 
-| Scenario | Mean vx tracking error |
-|----------|----------------------|
-| Flat ground | 0.108 |
-| Slippery ground (μ ≈ 0.1–0.2) | 0.163 |
+- Time: 2.5s  
+- Direction: lateral (y-axis)  
+- Force: 150N  
+
+### Result
+
+| Scenario | Outcome |
+|----------|--------|
+| Flat + baseline | Stable |
+| Slippery + baseline | Falls |
+| Slippery + robust | Stable |
+
+👉 The robust policy significantly improves stability under external disturbance.
 
 📌 **Observation:**
 
