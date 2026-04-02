@@ -26,6 +26,8 @@ In these conditions, robots easily slip and lose balance.
 
 👉 This project focuses on improving locomotion robustness under low-friction environments.
 
+---
+
 ## 🎥 Demo: Robustness under Different Terrains
 
 ### 🟦 Flat Terrain (Normal Ground)
