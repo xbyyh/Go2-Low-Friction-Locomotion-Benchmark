@@ -94,19 +94,9 @@ Under low-friction conditions, stability is improved without degrading motion qu
 
 ## 📈 Velocity Tracking (vx = 0.9)
 
-### 🟦 Flat
-
-| Baseline | Robust |
-|----------|--------|
-| ![](slippery1.0plot/Unitree_Go2_Flat/eval_log_Unitree_Go2_Flat_baseline_model_4800_step_vx_09_vx_tracking.png) | ![](slippery1.0plot/Unitree_Go2_Flat/eval_log_Unitree_Go2_Flat_slippery1.0_model_4800_step_vx_09_vx_tracking.png) |
-
----
-
-### 🧊 Slippery
-
-| Baseline | Robust |
-|----------|--------|
-| ![](slippery1.0plot/Unitree_Go2_Slippery/eval_log_Unitree_Go2_Slippery_baseline_model_4800_step_vx_09_vx_tracking.png) | ![](slippery1.0plot/Unitree_Go2_Slippery/eval_log_Unitree_Go2_Slippery_slippery1.0_model_4800_step_vx_09_vx_tracking.png) |
+| Flat - Baseline | Flat - Robust | Slippery - Baseline | Slippery - Robust |
+|-----------------|--------------|---------------------|-------------------|
+| ![](baseline/Unitree_Go2_Flat/eval_log_Unitree_Go2_Flat_baseline_model_4800_step_vx_09_vx_tracking.png) | ![](slippery1.0plot/Unitree_Go2_Flat/eval_log_Unitree_Go2_Flat_slippery1.0_model_4800_step_vx_09_vx_tracking.png) | ![](baseline/Unitree_Go2_Slippery/eval_log_Unitree_Go2_Slippery_baseline_model_4800_step_vx_09_vx_tracking.png) | ![](slippery1.0plot/Unitree_Go2_Slippery/eval_log_Unitree_Go2_Slippery_slippery1.0_model_4800_step_vx_09_vx_tracking.png) |
 
 ---
 
