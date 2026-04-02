@@ -95,18 +95,18 @@ Under low-friction conditions, stability is improved without degrading motion qu
 
 | Flat - Baseline | Flat - Robust | Slippery - Baseline | Slippery - Robust |
 |-----------------|--------------|---------------------|-------------------|
-| ![](baseline/Unitree_Go2_Flat/eval_log_Unitree_Go2_Flat_baseline_model_4800_step_lwz_rwz_wz_tracking.png) | ![](slippery1.0plot/Unitree_Go2_Flat/eval_log_Unitree_Go2_Flat_slippery1.0_model_4800_step_lwz_rwz_wz_tracking.png) | (baseline/Unitree_Go2_Slippery/eval_log_Unitree_Go2_Slippery_baseline_model_4800_step_lwz_rwz_wz_tracking.png) | ![](slippery1.0plot/Unitree_Go2_Slippery/eval_log_Unitree_Go2_Slippery_slippery1.0_model_4800_step_lwz_rwz_wz_tracking.png) |
+| ![](baseline/Unitree_Go2_Flat/eval_log_Unitree_Go2_Flat_baseline_model_4800_step_lwz_rwz_wz_tracking.png) | ![](slippery1.0plot/Unitree_Go2_Flat/eval_log_Unitree_Go2_Flat_slippery1.0_model_4800_step_lwz_rwz_wz_tracking.png) |  (baseline/Unitree_Go2_Slippery/eval_log_Unitree_Go2_Slippery_baseline_model_4800_step_lwz_rwz_wz_tracking.png) | ![](slippery1.0plot/Unitree_Go2_Slippery/eval_log_Unitree_Go2_Slippery_slippery1.0_model_4800_step_lwz_rwz_wz_tracking.png) |
 
 👉 Stress test under abrupt direction switching (high angular acceleration).
 
 ---
 
-## 📈 Velocity Tracking (vx = 0.3)
+## ⚠️ Extreme Case: Rapid Yaw Reversal (lwz → rwz)
 
 | Terrain | Baseline | Robust |
 |--------|----------|--------|
-| Flat | ![](baseline/Unitree_Go2_Flat/eval_log_Unitree_Go2_Flat_baseline_model_4800_step_vx_03_vx_tracking.png) | ![](slippery1.0plot/Unitree_Go2_Flat/eval_log_Unitree_Go2_Flat_slippery1.0_model_4800_step_vx_03_vx_tracking.png) |
-| Slippery | ![](baseline/Unitree_Go2_Slippery/eval_log_Unitree_Go2_Slippery_baseline_model_4800_step_vx_03_vx_tracking.png) | ![](slippery1.0plot/Unitree_Go2_Slippery/eval_log_Unitree_Go2_Slippery_slippery1.0_model_4800_step_vx_03_vx_tracking.png) |
+| Flat | ![](baseline/Unitree_Go2_Flat/eval_log_Unitree_Go2_Flat_baseline_model_4800_step_lwz_rwz_wz_tracking.png) | ![](slippery1.0plot/Unitree_Go2_Flat/eval_log_Unitree_Go2_Flat_slippery1.0_model_4800_step_lwz_rwz_wz_tracking.png) |
+| Slippery | ![](baseline/Unitree_Go2_Slippery/eval_log_Unitree_Go2_Slippery_baseline_model_4800_step_lwz_rwz_wz_tracking.png) | ![](slippery1.0plot/Unitree_Go2_Slippery/eval_log_Unitree_Go2_Slippery_slippery1.0_model_4800_step_lwz_rwz_wz_tracking.png) |
 
 ---
 
