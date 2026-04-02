@@ -147,15 +147,24 @@ Under low-friction conditions, stability is improved without degrading motion qu
 
 ---
 
-## 📊 Qualitative Comparison
+## 📊 Qualitative Comparison (Robust vs Baseline)
 
-| Setting | Mean Absolute Error | Convergence | Steady Error | Stability |
-|--------|----------|------------|-------------|----------|
-| Flat (low) | ↑ | ↑ | ↓ | ✓ |
-| Flat (high) | ≈ | ↑ | ↓ | ✓ |
-| Slippery (low) | ↑ | ↑ | ↓ | ✓ |
-| Slippery (high) | ≈ | ↑ | ≈ | ↑↑ |
-| Standstill | ↑ | ↑ | ↓ | ✓ |
+| Setting | Mean Error | Convergence | Steady Error | Stability |
+|--------|-----------|------------|-------------|----------|
+| **Linear (low) - Flat** | ↑ | ↑ | ↓ | ✓ |
+| **Linear (low) - Slippery** | ↑ | ↑ | ↓ | ✓ |
+| **Linear (medium) - Flat** | ↑ | ↑ | ↓ | ✓ |
+| **Linear (medium) - Slippery** | ↑ | ↑ | ↓ | ✓ |
+| **Linear (high) - Flat** | ≈ | ↑ | ≈ | ✓ |
+| **Linear (high) - Slippery** | ≈ | ↑ | ≈ | ✓ |
+| **Angular (low) - Flat** | ↑ | ↑ | ↓ | ✓ |
+| **Angular (low) - Slippery** | ↑ | ↑ | ↓ | ✓ |
+| **Angular (medium) - Flat** | ≈ | ↑ | ≈ | ✓ |
+| **Angular (medium) - Slippery** | ≈ | ↑ | ≈ | ✓ |
+| **Angular (high) - Flat** | ≈ | ≈ | ≈ | ✓ |
+| **Angular (high) - Slippery** | ≈ | ≈ | ≈ | ✓ |
+| **Standstill - Flat** | ↑ | ↑ | ↓ | ✓ |
+| **Standstill - Slippery** | ↑ | ↑ | ↓ | ✓ |
 
 ---
 
