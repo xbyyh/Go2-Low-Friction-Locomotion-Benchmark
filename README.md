@@ -143,6 +143,8 @@ Under low-friction conditions, stability is improved without degrading motion qu
 | Flat | ![](baseline/Unitree_Go2_Flat/eval_log_Unitree_Go2_Flat_baseline_model_4800_step_wz_09_wz_tracking.png) | ![](slippery1.0plot/Unitree_Go2_Flat/eval_log_Unitree_Go2_Flat_slippery1.0_model_4800_step_wz_09_wz_tracking.png) |
 | Slippery | ![](baseline/Unitree_Go2_Slippery/eval_log_Unitree_Go2_Slippery_baseline_model_4800_step_wz_09_wz_tracking.png) | ![](slippery1.0plot/Unitree_Go2_Slippery/eval_log_Unitree_Go2_Slippery_slippery1.0_model_4800_step_wz_09_wz_tracking.png) |
 
+👉Both the baseline and slippery-trained policies experience performance degradation when transitioning from flat to low-friction terrain, reflected in reduced tracking accuracy and increased steady-state error.
+However, the slippery-trained policy demonstrates stronger velocity tracking capability, achieving faster convergence to steady state. It also maintains lower steady-state error at low-to-medium speeds, while remaining comparable to the baseline at higher velocities.
 ---
 
 ## ⚖️ Robustness
