@@ -102,6 +102,14 @@ Under low-friction conditions, stability is improved without degrading motion qu
 👉 Stress test under abrupt direction switching (high angular acceleration).
 
 ---
+## 📈 Velocity Tracking (vx = 0.3)
+
+| Terrain | Baseline | Robust |
+|--------|----------|--------|
+| Flat | ![](baseline/Unitree_Go2_Flat/eval_log_Unitree_Go2_Flat_baseline_model_4800_step_vx_03_vx_tracking.png) | ![](slippery1.0plot/Unitree_Go2_Flat/eval_log_Unitree_Go2_Flat_slippery1.0_model_4800_step_vx_03_vx_tracking.png) |
+| Slippery | ![](baseline/Unitree_Go2_Slippery/eval_log_Unitree_Go2_Slippery_baseline_model_4800_step_vx_03_vx_tracking.png) | ![](slippery1.0plot/Unitree_Go2_Slippery/eval_log_Unitree_Go2_Slippery_slippery1.0_model_4800_step_vx_03_vx_tracking.png) |
+
+---
 
 ## 📈 Velocity Tracking (vx = 0.6)
 
