@@ -48,6 +48,25 @@ In these conditions, robots easily slip and lose balance.
 
 👉 Baseline struggles and becomes unstable, while the robust policy maintains balance and tracking performance.
 
+## 🎥 Demo: Robustness under Different Terrains
+
+### 🟦 Flat Terrain (Normal Ground)
+
+| Baseline Policy | Robust Policy (Slippery-Trained) |
+|----------------|----------------------------------|
+| ![](base4800flat.gif) | ![](slippery1.0flat.gif) |
+
+👉 Both policies perform well on flat terrain.
+
+---
+
+### 🧊 Slippery Terrain (Low Friction μ ≈ 0.1–0.2)
+
+| Baseline Policy | Robust Policy (Slippery-Trained) |
+|----------------|----------------------------------|
+| ![](baseline4800slippery.gif) | ![](slippery1.0slippery.gif) |
+
+👉 Baseline becomes unstable, while the robust policy maintains balance and tracking performance.
 
 
 ### Result
