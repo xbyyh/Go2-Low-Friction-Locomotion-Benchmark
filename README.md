@@ -212,7 +212,6 @@ Under low-friction conditions, stability is improved without degrading motion qu
 
 ## 🚀 Quick Start
 
-## 🚀 Quick Start
 
 To reproduce this project, first clone the original Unitree RL repository and navigate into the project directory.
 
