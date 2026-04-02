@@ -68,6 +68,20 @@ Low-friction surfaces significantly degrade velocity tracking performance.
 
 ---
 
+⚖️ Robustness Without Conservativeness
+
+A common concern in robustness-oriented training is that policies become overly conservative, sacrificing speed or responsiveness.
+
+However, this is not observed in our case:
+
+At low velocities, the robust policy achieves better tracking and faster convergence
+At higher velocities, performance remains comparable to baseline
+Under low-friction conditions, stability is improved without degrading motion quality
+
+👉 This is directly evidenced by the velocity tracking results shown below, including tracking accuracy and steady-state behavior.
+
+---
+
 ## 📈 Tracking Performance Comparison
 
 👉 **（这里放最关键的对比图）**
