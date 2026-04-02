@@ -91,15 +91,6 @@ Under low-friction conditions, stability is improved without degrading motion qu
 👉The robust (slippery-trained) policy achieves lower mean and steady-state errors in most cases, particularly at low-to-medium linear and angular velocities as well as during standstill, while maintaining comparable performance to the baseline at higher speeds.
 
 ---
-## ⚠️ Extreme Case: Rapid Direction Change (lwz → rwz)
-
-| Flat - Baseline | Flat - Robust | Slippery - Baseline | Slippery - Robust |
-|-----------------|--------------|---------------------|-------------------|
-| ![](baseline/Unitree_Go2_Flat/eval_log_Unitree_Go2_Flat_baseline_model_4800_step_lwz_rwz_wz_tracking.png) | ![](slippery1.0plot/Unitree_Go2_Flat/eval_log_Unitree_Go2_Flat_slippery1.0_model_4800_step_lwz_rwz_wz_tracking.png) |  (baseline/Unitree_Go2_Slippery/eval_log_Unitree_Go2_Slippery_baseline_model_4800_step_lwz_rwz_wz_tracking.png) | ![](slippery1.0plot/Unitree_Go2_Slippery/eval_log_Unitree_Go2_Slippery_slippery1.0_model_4800_step_lwz_rwz_wz_tracking.png) |
-
-👉 Stress test under abrupt direction switching (high angular acceleration).
-
----
 
 ## ⚠️ Extreme Case: Rapid Yaw Reversal (lwz → rwz)
 
@@ -107,6 +98,8 @@ Under low-friction conditions, stability is improved without degrading motion qu
 |--------|----------|--------|
 | Flat | ![](baseline/Unitree_Go2_Flat/eval_log_Unitree_Go2_Flat_baseline_model_4800_step_lwz_rwz_wz_tracking.png) | ![](slippery1.0plot/Unitree_Go2_Flat/eval_log_Unitree_Go2_Flat_slippery1.0_model_4800_step_lwz_rwz_wz_tracking.png) |
 | Slippery | ![](baseline/Unitree_Go2_Slippery/eval_log_Unitree_Go2_Slippery_baseline_model_4800_step_lwz_rwz_wz_tracking.png) | ![](slippery1.0plot/Unitree_Go2_Slippery/eval_log_Unitree_Go2_Slippery_slippery1.0_model_4800_step_lwz_rwz_wz_tracking.png) |
+
+👉 Stress test under abrupt direction switching (high angular acceleration).
 
 ---
 
