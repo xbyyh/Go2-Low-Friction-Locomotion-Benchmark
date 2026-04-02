@@ -44,7 +44,7 @@ In these conditions, robots easily slip and lose balance.
 
 | Baseline Policy | Robust Policy (Slippery-Trained) |
 |----------------|----------------------------------|
-| ![](baseline4800slippery.gif) | ![](slippery1.0slippery.gif) |
+| ![](baselineslippery1.8.gif) | ![](slippery1.0slippery1.8.gif) |
 
 👉 Baseline becomes unstable, while the robust policy maintains balance and tracking performance.
 
