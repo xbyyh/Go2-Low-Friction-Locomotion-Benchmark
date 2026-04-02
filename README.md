@@ -82,17 +82,38 @@ Under low-friction conditions, stability is improved without degrading motion qu
 
 ---
 
-## 📈 Tracking Performance Comparison
+## 📊 Overall Comparison
 
-👉 **（这里放最关键的对比图）**
-
-<!-- 🔥 在这里放 tracking 曲线 -->
 <p align="center">
-  <img src="assets/tracking_plots/vx_tracking_comparison.png" width="700">
+  <img src="comprehensive_error_comparison.png" width="700">
 </p>
 
-> Velocity tracking under identical command (step_vx_06)
+👉 Robust improves low-friction performance without degrading flat-ground performance.
 
+---
+
+## 📈 Velocity Tracking (vx = 0.9)
+
+### 🟦 Flat
+
+| Baseline | Robust |
+|----------|--------|
+| ![](slippery1.0plot/Unitree_Go2_Flat/eval_log_Unitree_Go2_Flat_baseline_model_4800_step_vx_09_vx_tracking.png) | ![](slippery1.0plot/Unitree_Go2_Flat/eval_log_Unitree_Go2_Flat_slippery1.0_model_4800_step_vx_09_vx_tracking.png) |
+
+---
+
+### 🧊 Slippery
+
+| Baseline | Robust |
+|----------|--------|
+| ![](slippery1.0plot/Unitree_Go2_Slippery/eval_log_Unitree_Go2_Slippery_baseline_model_4800_step_vx_09_vx_tracking.png) | ![](slippery1.0plot/Unitree_Go2_Slippery/eval_log_Unitree_Go2_Slippery_slippery1.0_model_4800_step_vx_09_vx_tracking.png) |
+
+---
+
+## ⚖️ Robustness
+
+👉 Robust ≠ conservative  
+Better at low speed, comparable at high speed.
 ---
 
 ## 🎯 What This Project Does
