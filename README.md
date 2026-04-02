@@ -184,74 +184,23 @@ Under low-friction conditions, stability is improved without degrading motion qu
 
 ---
 
-## ⚖️ Robustness
-
-👉 Robust ≠ conservative  
-Better at low speed, comparable at high speed.
----
-
-## 🎯 What This Project Does
-
-This project builds a **reproducible benchmark and evaluation pipeline** to:
-
-- 🧪 Measure performance degradation under low-friction conditions  
-- 📊 Compare flat vs slippery environments  
-- 🤖 Train a more robust locomotion policy  
-
-All experiments are conducted on:
-
-- Unitree Go2 quadruped  
-- MuJoCo simulation  
-- PPO-based velocity tracking policy  
-
----
-
-## 🧠 Key Idea
-
-Instead of focusing on algorithm novelty, this project emphasizes:
-
-> **evaluation, failure analysis, and robustness under realistic conditions**
-
----
-
-## 📦 Benchmark Design
-
-To ensure fair comparison, all models are evaluated using a **fixed-command benchmark**:
-
-- hold_zero  
-- step_vx_03 / step_vx_06  
-- step_wz_05 / step_wz_08  
-- switch_vx_wz  
-
-Each episode uses identical command sequences across all environments.
-
----
-
 ## ⚙️ Methodology
 
-- Training: PPO-based locomotion policy  
-- Environment:
+- Policy: PPO-based locomotion controller (MuJoCo, Unitree Go2)  
+- Training environments:
   - Flat ground (baseline)  
-  - Low-friction ground (μ ≈ 0.1–0.4)  
+  - Low-friction ground with randomized μ ∈ [0.1, 0.4]  
+
 - Evaluation:
-  - step-wise command injection  
-  - identical episode replay  
+  - fixed-command benchmark  
+  - identical command sequences across environments  
+
 - Metrics:
   - mean absolute tracking error  
   - steady-state error  
-
+  - convergence behavior  
 ---
 
-## 📊 (Optional) Robust Policy Result
-
-👉 **（如果你后面做了 robust training，再放）**
-
-<!-- 🔥 可选对比图 -->
-<p align="center">
-  <img src="assets/tracking_plots/robust_vs_baseline.png" width="700">
-</p>
-
----
 
 ## 🚀 Quick Start
 
