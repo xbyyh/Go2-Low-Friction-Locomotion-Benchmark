@@ -162,21 +162,21 @@ Under low-friction conditions, stability is improved without degrading motion qu
 
 | Setting | Mean Error | Convergence | Steady Error | Stability |
 |--------|-----------|------------|-------------|----------|
-| **Linear (low) - Flat** | ↑ | ↑ | ↓ | ✓ |
-| **Linear (low) - Slippery** | ↑ | ↑ | ↓ | ✓ |
-| **Linear (medium) - Flat** | ↑ | ↑ | ↓ | ✓ |
-| **Linear (medium) - Slippery** | ↑ | ↑ | ↓ | ✓ |
-| **Linear (high) - Flat** | ≈ | ↑ | ≈ | ✓ |
-| **Linear (high) - Slippery** | ≈ | ↑ | ≈ | ✓ |
-| **Angular (low) - Flat** | ↑ | ↑ | ↓ | ✓ |
-| **Angular (low) - Slippery** | ↑ | ↑ | ↓ | ✓ |
-| **Angular (medium) - Flat** | ↑ | ↑ | ↓ | ✓ |
-| **Angular (medium) - Slippery** | ≈ | ↑ | ↑ | ✓ |
-| **Angular (high) - Flat** | ≈ | ≈ | ≈ | ✓ |
+| **Linear (low) - Flat** | ↑ | ↑ | ↑ | ✓ |
+| **Linear (low) - Slippery** | ↑ | ↑ | ↑ | ✓ |
+| **Linear (medium) - Flat** | ↑ | ↑ | ↑ | ✓ |
+| **Linear (medium) - Slippery** | ↑ | ↑ | ↑ | ✓ |
+| **Linear (high) - Flat** | ↑ | ↑ | ≈ | ✓ |
+| **Linear (high) - Slippery** | ↑ | ↑ | ↓ | ✓ |
+| **Angular (low) - Flat** | ↑ | ≈ | ↑ | ✓ |
+| **Angular (low) - Slippery** | ↑ | ≈ | ↓ | ✓ |
+| **Angular (medium) - Flat** | ↓ | ≈ | ↓ | ✓ |
+| **Angular (medium) - Slippery** | ↑ | ≈ | ↑ | ✓ |
+| **Angular (high) - Flat** | ↓ | ≈ | ↓ | ✓ |
 | **Angular (high) - Slippery** | ≈ | ≈ | ≈ | ✓ |
-| **Standstill - Flat** | ≈ | ≈ | ≈ | ✓ |
-| **Standstill - Slippery** | ≈ | ≈ | ≈ | ✓ |
-| **Rapid Yaw Reversal - Flat** | ↓ | ≈ | ↓ | ✓ |
+| **Standstill - Flat** | ↑ | ≈ | ≈ | ✓ |
+| **Standstill - Slippery** | ↑ | ≈ | ≈ | ✓ |
+| **Rapid Yaw Reversal - Flat** | ↓ | ≈ | ↑ | ✓ |
 | **Rapid Yaw Reversal - Slippery** | ↑ | ≈ | ↑ | ↑↑ |
 
 ---
