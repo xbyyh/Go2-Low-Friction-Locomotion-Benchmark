@@ -203,8 +203,8 @@ Under low-friction conditions, stability is improved without degrading motion qu
 ## 📉 Training Performance
 
 <p align="center">
-  <img src="baseline/training_curve.png" width="48%">
-  <img src="slippery1.0plot/training_curve.png" width="48%">
+  <img src="baseline/baseline_reward.png" width="48%">
+  <img src="slippery1.0plot/slippery1.0_reward.png" width="48%">
 </p>
 
 <p align="center">
