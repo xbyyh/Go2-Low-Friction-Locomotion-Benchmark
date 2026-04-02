@@ -34,27 +34,27 @@ A policy trained on normal terrain may:
 
 ---
 
-## 🎥 Demo (Flat vs Slippery)
+## 🎥 Demo: Robustness under Different Terrains
 
-👉 **（这里放演示 GIF，对比最重要）**
+### 🟦 Flat Terrain (Normal Ground)
 
-<!-- 🔥 在这里放 GIF -->
-<p align="center">
-  <img src="assets/gifs/flat_vs_slippery.gif" width="600">
-</p>
+| Baseline Policy | Robust Policy (Slippery-Trained) |
+|----------------|----------------------------------|
+| <img src="base4800flat.gif" width="300"/> | <img src="slippery1.0flat.gif" width="300"/> |
 
-> Left: normal flat ground  
-> Right: low-friction slippery surface  
+👉 Both policies perform well on normal flat terrain.
 
 ---
 
-## 🌪️ Disturbance Test
+### 🧊 Slippery Terrain (Low Friction μ ≈ 0.1–0.2)
 
-We introduce a lateral push during locomotion:
+| Baseline Policy | Robust Policy (Slippery-Trained) |
+|----------------|----------------------------------|
+| <img src="baseline4800slippery.gif" width="300"/> | <img src="slippery1.0slippery.gif" width="300"/> |
 
-- Time: 2.5s  
-- Direction: lateral (y-axis)  
-- Force: 150N  
+👉 Baseline struggles and becomes unstable, while the robust policy maintains balance and tracking performance.
+
+
 
 ### Result
 
