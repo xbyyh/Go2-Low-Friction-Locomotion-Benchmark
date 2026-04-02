@@ -1,5 +1,5 @@
 # Go2 Low-Friction Locomotion Benchmark
-###A reinforcement learning project that improves quadruped stability under low-friction conditions (e.g., wet floors, ice, tiles).
+### A reinforcement learning project that improves quadruped stability under low-friction conditions (e.g., wet floors, ice, tiles).
 
 ---
 
