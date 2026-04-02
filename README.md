@@ -189,7 +189,7 @@ Under low-friction conditions, stability is improved without degrading motion qu
 - Policy: PPO-based locomotion controller (MuJoCo, Unitree Go2)  
 - Training environments:
   - Flat ground (baseline)  
-  - Low-friction ground with randomized μ ∈ [0.1, 0.4]  
+  - Low-friction ground with randomized μ ∈ [0.1, 1.2]  
 
 - Evaluation:
   - fixed-command benchmark  
@@ -200,7 +200,21 @@ Under low-friction conditions, stability is improved without degrading motion qu
   - steady-state error  
   - convergence behavior  
 ---
+## 📉 Training Performance
 
+<p align="center">
+  <img src="baseline/training_curve.png" width="48%">
+  <img src="slippery1.0plot/training_curve.png" width="48%">
+</p>
+
+<p align="center">
+Baseline &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+Robust (Slippery-Trained)
+</p>
+
+👉 Both models reach peak performance around 4800 iterations, after which a noticeable drop in reward is observed.
+
+👉 We select checkpoints near this peak for evaluation.
 
 ## 🚀 Quick Start
 
