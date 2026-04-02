@@ -147,6 +147,18 @@ Under low-friction conditions, stability is improved without degrading motion qu
 
 ---
 
+## 📊 Qualitative Comparison
+
+| Setting | Mean Absolute Error | Convergence | Steady Error | Stability |
+|--------|----------|------------|-------------|----------|
+| Flat (low) | ↑ | ↑ | ↓ | ✓ |
+| Flat (high) | ≈ | ≈ | ≈ | ✓ |
+| Slippery (low) | ↑ | ↑ | ↓ | ✓ |
+| Slippery (high) | ≈ | ≈ | ≈ | ↑ |
+| Standstill | ↑ | — | ↓ | ✓ |
+
+---
+
 ## ⚖️ Robustness
 
 👉 Robust ≠ conservative  
