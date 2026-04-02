@@ -50,7 +50,7 @@ A policy trained on normal terrain may:
 
 | Baseline Policy | Robust Policy (Slippery-Trained) |
 |----------------|----------------------------------|
-| <img src="base4800slippery.gif" width="300"/> | <img src="slippery1.0slippery.gif" width="300"/> |
+| <img src="baseline4800slippery.gif" width="300"/> | <img src="slippery1.0slippery.gif" width="300"/> |
 
 👉 Baseline struggles and becomes unstable, while the robust policy maintains balance and tracking performance.
 
