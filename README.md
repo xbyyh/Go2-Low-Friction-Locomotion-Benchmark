@@ -202,15 +202,9 @@ Under low-friction conditions, stability is improved without degrading motion qu
 ---
 ## 📉 Training Performance
 
-<p align="center">
-  <img src="baseline/baseline_reward.png" width="48%">
-  <img src="slippery1.0plot/slippery1.0_reward.png" width="48%">
-</p>
-
-<p align="center">
-Baseline &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-Robust (Slippery-Trained)
-</p>
+| Baseline | Robust (Slippery-Trained) |
+|----------|---------------------------|
+| ![](baseline/baseline_reward.png) | ![](slippery1.0plot/slippery1.0_reward.png) |
 
 👉 Both models reach peak performance around 4800 iterations, after which a noticeable drop in reward is observed.
 
