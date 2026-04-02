@@ -14,25 +14,17 @@ However, a key challenge remains:
 
 ---
 
-## ⚠️ Real-World Motivation
+## 🌍 Motivation
 
-Consider deploying a quadruped robot outside controlled lab conditions:
+Imagine a quadruped robot walking on:
 
-- 🌧️ Wet pavement after rain  
-- ❄️ Icy roads in winter  
-- 🏢 Polished marble or tile floors indoors  
+- Wet marble floors (μ ≈ 0.1–0.2)
+- Icy roads in winter
+- Polished indoor tiles
 
-In these scenarios, ground friction can drop to:
+In these conditions, robots easily slip and lose balance.
 
-> **μ ≈ 0.1 – 0.15**
-
-A policy trained on normal terrain may:
-
-- lose velocity tracking  
-- become unstable  
-- or even fail completely  
-
----
+👉 This project focuses on improving locomotion robustness under low-friction environments.
 
 ## 🎥 Demo: Robustness under Different Terrains
 
