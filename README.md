@@ -179,6 +179,10 @@ Under low-friction conditions, stability is improved without degrading motion qu
 | **Rapid Yaw Reversal - Flat** | ↓ | ≈ | ↑ | ✓ |
 | **Rapid Yaw Reversal - Slippery** | ↑ | ≈ | ↑ | ↑↑ |
 
+
+**Legend:**  
+↑ better than baseline  ↓ worse than baseline  ≈ comparable  ✓ no failure  ↑↑ significantly more stable
+
 ---
 
 ## ⚖️ Robustness
