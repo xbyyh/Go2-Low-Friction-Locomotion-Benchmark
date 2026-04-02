@@ -88,7 +88,7 @@ Under low-friction conditions, stability is improved without degrading motion qu
   <img src="comprehensive_error_comparison.png" width="900">
 </p>
 
-👉 Robust improves low-friction performance without degrading flat-ground performance.
+👉The robust (slippery-trained) policy achieves lower mean and steady-state errors in most cases, particularly at low-to-medium linear and angular velocities as well as during standstill, while maintaining comparable performance to the baseline at higher speeds.
 
 ---
 
