@@ -85,7 +85,7 @@ Under low-friction conditions, stability is improved without degrading motion qu
 ## 📊 Overall Comparison
 
 <p align="center">
-  <img src="comprehensive_error_comparison.png" width="700">
+  <img src="comprehensive_error_comparison.png" width="900">
 </p>
 
 👉 Robust improves low-friction performance without degrading flat-ground performance.
