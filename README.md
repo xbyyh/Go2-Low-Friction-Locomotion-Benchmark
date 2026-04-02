@@ -154,8 +154,8 @@ Under low-friction conditions, stability is improved without degrading motion qu
 | Flat (low) | ↑ | ↑ | ↓ | ✓ |
 | Flat (high) | ≈ | ≈ | ≈ | ✓ |
 | Slippery (low) | ↑ | ↑ | ↓ | ✓ |
-| Slippery (high) | ≈ | ≈ | ≈ | ↑ |
-| Standstill | ↑ | — | ↓ | ✓ |
+| Slippery (high) | ≈ | ↑ | ≈ | ↑↑ |
+| Standstill | ↑ | ↑ | ↓ | ✓ |
 
 ---
 
