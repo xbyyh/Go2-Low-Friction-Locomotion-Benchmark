@@ -1,5 +1,5 @@
 # Go2 Low-Friction Locomotion Benchmark
-### Robust Quadruped Control under Slippery Real-World Conditions
+###A reinforcement learning project that improves quadruped stability under low-friction conditions (e.g., wet floors, ice, tiles).
 
 ---
 
