@@ -234,3 +234,16 @@ Then replace the following files with the modified versions provided in this rep
 ---
 
 Once all files are correctly replaced, run the corresponding scripts using the commands provided at the end of each file (e.g., training or evaluation scripts).
+extra instruction：
+
+slippery instruction：
+
+CUDA_VISIBLE_DEVICES=0 python scripts/train.py Unitree-Go2-Slippery-Train \
+  --agent.run_name slippery_train_v1 \
+  --env.scene.num_envs 256 \
+  --agent.max_iterations 6000
+
+baseline instruction：
+
+Use the official default settings, with the number of parallel environments chosen according to your available resources.
+
