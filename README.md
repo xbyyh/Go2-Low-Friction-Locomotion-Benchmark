@@ -206,21 +206,31 @@ Under low-friction conditions, stability is improved without degrading motion qu
 |----------|---------------------------|
 | ![](baseline/baseline_reward.png) | ![](slippery1.0plot/slippery1.0_reward.png) |
 
-👉 Both models reach peak performance around 4800 iterations, after which a noticeable drop in reward is observed.
+👉 Both models reach peak performance around 4800（env=256） iterations, after which a noticeable drop in reward is observed.
 
 👉 We select checkpoints near this peak for evaluation.
 
 ## 🚀 Quick Start
 
-```bash
-# train baseline
-python scripts/train.py --task flat
+## 🚀 Quick Start
 
-# train robust policy
-python scripts/train.py --task slippery_train
+To reproduce this project, first clone the original Unitree RL repository and navigate into the project directory.
 
-# evaluate
-python scripts/eval_fixed_cmd.py --model models/baseline.pt
+Then replace the following files with the modified versions provided in this repository:
 
-# analyze results
-python scripts/analyze_and_plot.py
+### 📁 File Replacement Guide
+
+- `comprehensive_plot.py` → scripts 
+- `eval_fixed_cmd.py` → scripts 
+- `analyze_and_plot_eval.py` → scripts
+
+- `go2_eval_cmd_set_v1.json` → `tmp/go2_eval_cmd_set_v1.json`  
+
+- `velocity_env_cfg.py` → `src/tasks/velocity/velocity_env_cfg.py`  
+
+- `env_cfgs.py` → `src/tasks/velocity/config/go2/env_cfgs.py`  
+- `__init__.py` → `src/tasks/velocity/config/go2/__init__.py`  
+
+---
+
+Once all files are correctly replaced, run the corresponding scripts using the commands provided at the end of each file (e.g., training or evaluation scripts).
