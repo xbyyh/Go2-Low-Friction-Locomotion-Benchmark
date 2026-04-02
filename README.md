@@ -170,8 +170,8 @@ Under low-friction conditions, stability is improved without degrading motion qu
 | **Linear (high) - Slippery** | ≈ | ↑ | ≈ | ✓ |
 | **Angular (low) - Flat** | ↑ | ↑ | ↓ | ✓ |
 | **Angular (low) - Slippery** | ↑ | ↑ | ↓ | ✓ |
-| **Angular (medium) - Flat** | ≈ | ↑ | ≈ | ✓ |
-| **Angular (medium) - Slippery** | ≈ | ↑ | ≈ | ✓ |
+| **Angular (medium) - Flat** | ≈ | ↑ | ↓ | ✓ |
+| **Angular (medium) - Slippery** | ≈ | ↑ | ↑ | ✓ |
 | **Angular (high) - Flat** | ≈ | ≈ | ≈ | ✓ |
 | **Angular (high) - Slippery** | ≈ | ≈ | ≈ | ✓ |
 | **Standstill - Flat** | ≈ | ≈ | ≈ | ✓ |
