@@ -44,8 +44,8 @@
     "step_lwz_rwz": {
       "segments": [
         { "duration": 2.0, "vx": 0.0, "vy": 0.0, "wz": 0.0 },
-        { "duration": 3.0, "vx": 1.0, "vy": 0.0, "wz": 2.0 },
-        { "duration": 3.0, "vx": 1.0, "vy": 0.0, "wz": -2.0 }
+        { "duration": 3.0, "vx": 1.0, "vy": 0.0, "wz": 1.8 },
+        { "duration": 3.0, "vx": 1.0, "vy": 0.0, "wz": -1.8 }
       ]
     },
     "switch_vx_wz": {
