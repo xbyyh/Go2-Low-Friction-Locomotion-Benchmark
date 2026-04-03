@@ -30,7 +30,7 @@ In these conditions, robots easily slip and lose balance.
 
 ## 🎥 Demo: Robustness under Different Terrains
 
-### 🟦 Flat Terrain (Normal Ground)
+### 🟦 Flat Terrain (Normal Ground)(angular speed=2.2)
 
 | Baseline Policy | Robust Policy (Slippery-Trained) |
 |----------------|----------------------------------|
