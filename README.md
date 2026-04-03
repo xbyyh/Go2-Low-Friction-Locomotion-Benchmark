@@ -46,13 +46,12 @@ In these conditions, robots easily slip and lose balance.
 |----------------|----------------------------------|
 | ![](baselineslippery1.8.gif) | ![](slippery1.0slippery1.8.gif) |
 
-👉 Baseline becomes unstable, while the robust policy maintains balance and tracking performance.
 
 ### 🧊 Slippery Terrain (Low Friction μ ≈ 0.1–0.2) (angular speed=2.2)
 
 | Baseline Policy | Robust Policy (Slippery-Trained) |
 |----------------|----------------------------------|
-| ![](baselineslippery2.2.gif) | ![](slippery1.0slippery2.2.gif) |
+| ![](baseline4800slippery2.2.gif) | ![](slippery1.0slippery2.2.gif) |
 
 👉 Baseline becomes unstable, while the robust policy maintains balance and tracking performance.
 ### Result
